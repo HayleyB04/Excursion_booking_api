@@ -4,9 +4,9 @@ I have created an API to book holiday excursions through an agency. Users can vi
 
 To use the API you must follow these steps:
 
-Edit the config.py file to ensure HOST = "localhost", USER = "root" and PASSWORD = your own password for SQL.
-Ensure you have imported json, requests, mysql.connector and flask.
-Run the app.py file.
-Run the main.py file alongside the app.py file.
-Follow the interaction shown, answering the questions in the specified format until you reach the end of the booking(the DB connection will close when completed).
-Enter the url http://localhost:5001/availability/"date" into your browser to view the availability for each specified date. E.g. http://localhost:5001/availability/2024-07-01.
+- Edit the config.py file to ensure HOST = "localhost", USER = "root" and PASSWORD = your own password for SQL.
+- Ensure you have imported json, requests, mysql.connector and flask.
+- Run the app.py file.
+- Run the main.py file alongside the app.py file.
+- Follow the interaction shown, answering the questions in the specified format until you reach the end of the booking(the DB connection will close when completed).
+- Enter the url http://localhost:5001/availability/"date" into your browser to view the availability for each specified date. E.g. http://localhost:5001/availability/2024-07-01.
